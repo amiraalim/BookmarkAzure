@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="C:\wamp\www\BookmarkAzure\BookmarkAzure.clpprj">
 	<settings><PM_URL><![CDATA[http://localhost:81/BookmarkAzure/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost:81/BookmarkAzure/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
-		<file name="c:\wamp\www\BookmarkAzure\includes\conn.php"/>
-		<file name="C:\wamp\www\BookmarkAzure\del_bookmark.php"/>
-		<file name="C:\wamp\www\BookmarkAzure\includes\header.php"/>
+		<file name="C:\wamp\www\BookmarkAzure\login.php"/>
+		<file name="C:\wamp\www\BookmarkAzure\login_submit.php"/>
+		<file name="C:\wamp\www\BookmarkAzure\includes\user_form.php"/>
+		<file name="C:\wamp\www\BookmarkAzure\adduser_submit.php"/>
 		<file name="C:\wamp\www\BookmarkAzure\list_bookmark.php"/>
 	</lastopfiles>
 	<errors version="4.5">
@@ -18,23 +19,23 @@
 			</treenode>
 			<treenode node="includes/bookmark_form.php;PHP:PHP Include;c:\wamp\www\BookmarkAzure\add_bookmark.php;f14;27;40;27;;C:\wamp\www\BookmarkAzure\add_bookmark.php;f14;27;40;27;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="includes/conn.php;PHP:PHP Include;c:\wamp\www\BookmarkAzure\login_submit.php;f17;10;34;10;;c:\wamp\www\BookmarkAzure\login.php;f11;1;28;1;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f11;16;28;16;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f13;20;30;20;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f12;23;29;23;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f12;19;29;19;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f13;53;30;53;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f15;28;32;28;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f12;19;29;19;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f11;16;28;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="includes/conn.php;PHP:PHP Include;c:\wamp\www\BookmarkAzure\login_submit.php;f17;10;34;10;;c:\wamp\www\BookmarkAzure\login.php;f11;1;28;1;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f11;16;28;16;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f13;20;30;20;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f12;23;29;23;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f12;19;29;19;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f13;53;30;53;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f15;28;32;28;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f12;19;29;19;;C:\wamp\www\BookmarkAzure\login_submit.php;f17;10;34;10;;C:\wamp\www\BookmarkAzure\login.php;f11;1;28;1;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f13;53;30;53;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f11;16;28;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="includes/editbookmark_form.php;PHP:PHP Include;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f15;55;45;55;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="includes/footer.php;PHP:PHP Include;c:\wamp\www\BookmarkAzure\login.php;f15;28;34;28;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f11;67;30;67;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f9;133;28;133;;c:\wamp\www\BookmarkAzure\adduser.php;f13;24;32;24;;c:\wamp\www\BookmarkAzure\add_bookmark.php;f14;30;33;30;;C:\wamp\www\BookmarkAzure\add_bookmark.php;f14;30;33;30;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="includes/footer.php;PHP:PHP Include;c:\wamp\www\BookmarkAzure\login.php;f15;28;34;28;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f11;67;30;67;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f9;133;28;133;;c:\wamp\www\BookmarkAzure\adduser.php;f13;24;32;24;;c:\wamp\www\BookmarkAzure\add_bookmark.php;f14;30;33;30;;C:\wamp\www\BookmarkAzure\add_bookmark.php;f14;30;33;30;;C:\wamp\www\BookmarkAzure\login_submit.php;f11;104;30;104;;C:\wamp\www\BookmarkAzure\login.php;f15;43;34;43;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f9;133;28;133;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="includes/header.php;PHP:PHP Include;c:\wamp\www\BookmarkAzure\login.php;f17;6;36;6;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f10;5;29;5;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f10;5;29;5;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f10;5;29;5;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f10;5;29;5;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f9;8;28;8;;c:\wamp\www\BookmarkAzure\adduser.php;f13;18;32;18;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f10;5;29;5;;c:\wamp\www\BookmarkAzure\add_bookmark.php;f10;5;29;5;;C:\wamp\www\BookmarkAzure\add_bookmark.php;f10;5;29;5;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f10;5;29;5;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f10;5;29;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="includes/header.php;PHP:PHP Include;c:\wamp\www\BookmarkAzure\login.php;f17;6;36;6;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f10;5;29;5;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f10;5;29;5;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f10;5;29;5;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f10;5;29;5;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f9;8;28;8;;c:\wamp\www\BookmarkAzure\adduser.php;f13;18;32;18;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f10;5;29;5;;c:\wamp\www\BookmarkAzure\add_bookmark.php;f10;5;29;5;;C:\wamp\www\BookmarkAzure\add_bookmark.php;f10;5;29;5;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f10;5;29;5;;C:\wamp\www\BookmarkAzure\login_submit.php;f11;101;30;101;;C:\wamp\www\BookmarkAzure\login.php;f17;6;36;6;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f9;8;28;8;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f10;5;29;5;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="includes/user_form.php;PHP:PHP Include;c:\wamp\www\BookmarkAzure\adduser.php;f13;21;35;21;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="_GET;PHP:Var Name;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f11;20;16;20;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f11;16;16;16;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f11;16;16;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_POST;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f18;19;24;19;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f36;16;42;16;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f14;19;20;19;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f12;16;18;16;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_POST;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f18;19;24;19;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f36;16;42;16;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f14;19;20;19;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f12;16;18;16;;C:\wamp\www\BookmarkAzure\login_submit.php;f18;19;24;19;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f14;19;20;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="_SESSION;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\header.php;f10;4;19;4;;c:\wamp\www\BookmarkAzure\logout.php;f17;9;26;9;;c:\wamp\www\BookmarkAzure\login_submit.php;f14;14;23;14;;c:\wamp\www\BookmarkAzure\login.php;f8;9;17;9;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f11;6;20;6;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f11;8;20;8;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f11;8;20;8;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f11;8;20;8;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f10;14;19;14;;c:\wamp\www\BookmarkAzure\adduser.php;f4;9;13;9;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f11;8;20;8;;c:\wamp\www\BookmarkAzure\add_bookmark.php;f11;8;20;8;;C:\wamp\www\BookmarkAzure\add_bookmark.php;f11;8;20;8;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f11;8;20;8;;C:\wamp\www\BookmarkAzure\includes\header.php;f10;4;19;4;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f11;6;20;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="_SESSION;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\header.php;f10;4;19;4;;c:\wamp\www\BookmarkAzure\logout.php;f17;9;26;9;;c:\wamp\www\BookmarkAzure\login_submit.php;f14;14;23;14;;c:\wamp\www\BookmarkAzure\login.php;f8;9;17;9;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f11;6;20;6;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f11;8;20;8;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f11;8;20;8;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f11;8;20;8;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f10;14;19;14;;c:\wamp\www\BookmarkAzure\adduser.php;f4;9;13;9;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f11;8;20;8;;c:\wamp\www\BookmarkAzure\add_bookmark.php;f11;8;20;8;;C:\wamp\www\BookmarkAzure\add_bookmark.php;f11;8;20;8;;C:\wamp\www\BookmarkAzure\includes\header.php;f10;4;19;4;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f11;8;20;8;;C:\wamp\www\BookmarkAzure\login_submit.php;f14;14;23;14;;C:\wamp\www\BookmarkAzure\login.php;f8;9;17;9;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f10;14;19;14;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f11;6;20;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="Access_Level;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\header.php;f2;6;15;6;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f4;64;17;64;;C:\wamp\www\BookmarkAzure\includes\header.php;f2;6;15;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="Access_Level;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\header.php;f2;6;15;6;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f4;64;17;64;;C:\wamp\www\BookmarkAzure\includes\header.php;f2;6;15;6;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f4;64;17;64;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="affected;PHP:Var Name;c:\wamp\www\BookmarkAzure\del_bookmark.php;f5;35;14;35;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f5;38;14;38;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -54,45 +55,45 @@
 			</treenode>
 			<treenode node="common_message;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\common.php;f14;6;29;6;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="err;PHP:Var Name;c:\wamp\www\BookmarkAzure\adduser_submit.php;f20;112;24;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="err;PHP:Var Name;c:\wamp\www\BookmarkAzure\adduser_submit.php;f20;112;24;112;;C:\wamp\www\BookmarkAzure\login_submit.php;f20;99;24;99;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f20;112;24;112;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="error;PHP:Var Name;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f14;81;20;81;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="errors;PHP:Var Name;c:\wamp\www\BookmarkAzure\list_bookmark.php;f3;54;10;54;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f0;11;7;11;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f7;18;14;18;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f3;52;10;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="errors;PHP:Var Name;c:\wamp\www\BookmarkAzure\list_bookmark.php;f3;54;10;54;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f0;11;7;11;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f7;18;14;18;;C:\wamp\www\BookmarkAzure\login_submit.php;f1;12;8;12;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f0;11;7;11;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f3;52;10;52;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="FirstName;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f81;26;91;26;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f4;62;14;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="FirstName;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f81;26;91;26;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f4;62;14;62;;C:\wamp\www\BookmarkAzure\includes\user_form.php;f81;26;91;26;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f4;62;14;62;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="form_action;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f31;10;43;10;;c:\wamp\www\BookmarkAzure\adduser.php;f4;12;16;12;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="form_action;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f31;10;43;10;;c:\wamp\www\BookmarkAzure\adduser.php;f4;12;16;12;;C:\wamp\www\BookmarkAzure\includes\user_form.php;f31;10;43;10;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="form_token;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f63;39;74;39;;c:\wamp\www\BookmarkAzure\includes\editbookmark_form.php;f64;22;75;22;;c:\wamp\www\BookmarkAzure\includes\bookmark_form.php;f64;21;75;21;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f2;16;13;16;;c:\wamp\www\BookmarkAzure\adduser.php;f4;6;15;6;;c:\wamp\www\BookmarkAzure\add_bookmark.php;f2;17;13;17;;C:\wamp\www\BookmarkAzure\add_bookmark.php;f2;17;13;17;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="form_token;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f63;39;74;39;;c:\wamp\www\BookmarkAzure\includes\editbookmark_form.php;f64;22;75;22;;c:\wamp\www\BookmarkAzure\includes\bookmark_form.php;f64;21;75;21;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f2;16;13;16;;c:\wamp\www\BookmarkAzure\adduser.php;f4;6;15;6;;c:\wamp\www\BookmarkAzure\add_bookmark.php;f2;17;13;17;;C:\wamp\www\BookmarkAzure\add_bookmark.php;f2;17;13;17;;C:\wamp\www\BookmarkAzure\includes\user_form.php;f63;39;74;39;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="heading;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f21;9;29;9;;c:\wamp\www\BookmarkAzure\includes\editbookmark_form.php;f21;0;29;0;;c:\wamp\www\BookmarkAzure\includes\bookmark_form.php;f21;0;29;0;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f7;45;15;45;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="heading;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f21;9;29;9;;c:\wamp\www\BookmarkAzure\includes\editbookmark_form.php;f21;0;29;0;;c:\wamp\www\BookmarkAzure\includes\bookmark_form.php;f21;0;29;0;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f7;45;15;45;;C:\wamp\www\BookmarkAzure\includes\user_form.php;f21;9;29;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="LastName;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f79;30;88;30;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f4;63;13;63;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="LastName;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f79;30;88;30;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f4;63;13;63;;C:\wamp\www\BookmarkAzure\includes\user_form.php;f79;30;88;30;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f4;63;13;63;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="location;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f8;16;17;16;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f19;69;28;69;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="location;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f8;16;17;16;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f19;69;28;69;;C:\wamp\www\BookmarkAzure\login_submit.php;f8;16;17;16;;;;vposint;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="log_link;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\header.php;f2;8;11;8;;C:\wamp\www\BookmarkAzure\includes\header.php;f2;8;11;8;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="log_link_name;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\header.php;f2;9;16;9;;C:\wamp\www\BookmarkAzure\includes\header.php;f2;9;16;9;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="result;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f12;66;19;66;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f3;29;10;29;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f4;37;11;37;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f18;52;25;52;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f3;29;10;29;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="result;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f12;66;19;66;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f3;29;10;29;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f4;37;11;37;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f18;52;25;52;;C:\wamp\www\BookmarkAzure\login_submit.php;f12;68;19;68;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f3;29;10;29;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="result2;PHP:Var Name;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f6;60;14;60;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="row;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f16;74;20;74;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f3;30;7;30;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f4;38;8;38;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f3;30;7;30;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="row;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f16;74;20;74;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f3;30;7;30;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f4;38;8;38;;C:\wamp\www\BookmarkAzure\login_submit.php;f16;77;20;77;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f3;30;7;30;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="selected;PHP:Var Name;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f7;47;16;47;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="sql;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f46;42;50;42;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f5;19;9;19;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f7;23;11;23;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f6;26;10;26;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f6;22;10;22;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f42;55;46;55;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f9;30;13;30;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f6;22;10;22;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f5;19;9;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="sql;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f46;42;50;42;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f5;19;9;19;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f7;23;11;23;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f6;26;10;26;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f6;22;10;22;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f42;55;46;55;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f9;30;13;30;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f6;22;10;22;;C:\wamp\www\BookmarkAzure\login_submit.php;f46;44;50;44;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f42;55;46;55;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f5;19;9;19;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="stmt;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f12;53;17;53;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f3;22;8;22;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f5;32;10;32;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f4;29;9;29;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f4;28;9;28;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f12;69;17;69;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f4;39;9;39;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f4;28;9;28;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f3;22;8;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="stmt;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f12;53;17;53;;c:\wamp\www\BookmarkAzure\list_bookmark.php;f3;22;8;22;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f5;32;10;32;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f4;29;9;29;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f4;28;9;28;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f12;69;17;69;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f4;39;9;39;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f4;28;9;28;;C:\wamp\www\BookmarkAzure\login_submit.php;f12;55;17;55;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f12;69;17;69;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f3;22;8;22;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="stmt2;PHP:Var Name;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f6;59;12;59;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="stmt3;PHP:Var Name;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f6;62;12;62;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="submit_value;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f51;34;64;34;;c:\wamp\www\BookmarkAzure\adduser.php;f4;15;17;15;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="submit_value;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f51;34;64;34;;c:\wamp\www\BookmarkAzure\adduser.php;f4;15;17;15;;C:\wamp\www\BookmarkAzure\includes\user_form.php;f51;34;64;34;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="Tags;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\editbookmark_form.php;f71;13;76;13;;c:\wamp\www\BookmarkAzure\includes\bookmark_form.php;f71;13;76;13;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f5;29;10;29;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f7;51;12;51;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f7;36;12;36;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
@@ -100,13 +101,13 @@
 			</treenode>
 			<treenode node="URL;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\editbookmark_form.php;f69;9;73;9;;c:\wamp\www\BookmarkAzure\includes\bookmark_form.php;f69;9;73;9;;c:\wamp\www\BookmarkAzure\edit_bookmark_submit.php;f5;28;9;28;;c:\wamp\www\BookmarkAzure\edit_bookmark.php;f7;50;11;50;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f4;35;8;35;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="UserEmailAddress;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f95;22;112;22;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f1;60;18;60;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="UserEmailAddress;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f95;22;112;22;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f1;60;18;60;;C:\wamp\www\BookmarkAzure\includes\user_form.php;f95;22;112;22;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f1;60;18;60;;;;vposmixed;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 			<treenode node="UserID;PHP:Var Name;c:\wamp\www\BookmarkAzure\list_bookmark.php;f2;17;9;17;;c:\wamp\www\BookmarkAzure\del_bookmark.php;f4;26;11;26;;c:\wamp\www\BookmarkAzure\addbookmark_submit.php;f7;33;14;33;;C:\wamp\www\BookmarkAzure\del_bookmark.php;f4;26;11;26;;C:\wamp\www\BookmarkAzure\list_bookmark.php;f2;17;9;17;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="UserName;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f79;14;88;14;;c:\wamp\www\BookmarkAzure\includes\header.php;f2;7;11;7;;c:\wamp\www\BookmarkAzure\login_submit.php;f8;42;17;42;;c:\wamp\www\BookmarkAzure\login.php;f77;20;86;20;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f4;55;13;55;;C:\wamp\www\BookmarkAzure\includes\header.php;f2;7;11;7;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="UserName;PHP:Var Name;c:\wamp\www\BookmarkAzure\includes\user_form.php;f79;14;88;14;;c:\wamp\www\BookmarkAzure\includes\header.php;f2;7;11;7;;c:\wamp\www\BookmarkAzure\login_submit.php;f8;42;17;42;;c:\wamp\www\BookmarkAzure\login.php;f77;20;86;20;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f4;55;13;55;;C:\wamp\www\BookmarkAzure\includes\header.php;f2;7;11;7;;C:\wamp\www\BookmarkAzure\login_submit.php;f8;44;17;44;;C:\wamp\www\BookmarkAzure\login.php;f79;29;88;29;;C:\wamp\www\BookmarkAzure\includes\user_form.php;f79;14;88;14;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f4;55;13;55;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
-			<treenode node="UserPassword;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f8;46;21;46;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f4;58;17;58;;;;vpos;;v;;r;;d-1,-1;;b0,0;;m">
+			<treenode node="UserPassword;PHP:Var Name;c:\wamp\www\BookmarkAzure\login_submit.php;f8;46;21;46;;c:\wamp\www\BookmarkAzure\adduser_submit.php;f4;58;17;58;;C:\wamp\www\BookmarkAzure\login_submit.php;f8;48;21;48;;C:\wamp\www\BookmarkAzure\adduser_submit.php;f4;58;17;58;;;;vposstring;;v;;r;;d-1,-1;;b0,0;;m">
 			</treenode>
 		</phptree>
 		<jstree>
@@ -135,14 +136,14 @@
 		<file name="C:\wamp\www\BookmarkAzure\includes\bookmark_form.php" crc="681339541"/>
 		<file name="C:\wamp\www\BookmarkAzure\includes\admin_menu.php" crc="-750727865"/>
 		<file name="C:\wamp\www\BookmarkAzure\logout.php" crc="1742050406"/>
-		<file name="C:\wamp\www\BookmarkAzure\login_submit.php" crc="-240496097"/>
-		<file name="C:\wamp\www\BookmarkAzure\login.php" crc="878790169"/>
+		<file name="C:\wamp\www\BookmarkAzure\login_submit.php" crc="342200984"/>
+		<file name="C:\wamp\www\BookmarkAzure\login.php" crc="2037494570"/>
 		<file name="C:\wamp\www\BookmarkAzure\list_bookmark.php" crc="2034338483"/>
 		<file name="C:\wamp\www\BookmarkAzure\index.php" crc="1629325649"/>
 		<file name="C:\wamp\www\BookmarkAzure\edit_bookmark_submit.php" crc="1189336504"/>
 		<file name="C:\wamp\www\BookmarkAzure\edit_bookmark.php" crc="783179080"/>
 		<file name="C:\wamp\www\BookmarkAzure\del_bookmark.php" crc="-1056811906"/>
-		<file name="C:\wamp\www\BookmarkAzure\adduser_submit.php" crc="271270010"/>
+		<file name="C:\wamp\www\BookmarkAzure\adduser_submit.php" crc="-1441374624"/>
 		<file name="C:\wamp\www\BookmarkAzure\adduser.php" crc="-878328327"/>
 		<file name="C:\wamp\www\BookmarkAzure\addbookmark_submit.php" crc="-1938382101"/>
 		<file name="C:\wamp\www\BookmarkAzure\add_bookmark.php" crc="1908983772"/>
