@@ -20,7 +20,7 @@
 
     	/*** set the form action ***/
     	$bookmarkform_action = 'addbookmark_submit.php';
-
+		$heading='Add Bookmark';
     	/*** set the form submit button value ***/
     	$bookmarkform_submit_value = 'Add Bookmark';
     	
