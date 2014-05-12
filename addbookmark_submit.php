@@ -100,4 +100,6 @@
 		
 		
 	}
+	/*** include the footer file ***/
+include 'includes/footer.php';
 ?>

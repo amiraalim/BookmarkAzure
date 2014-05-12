@@ -63,4 +63,6 @@
 			echo 'Invalid Submission';
 		}
 	}
+	/*** include the footer file ***/
+include 'includes/footer.php';
 ?>
